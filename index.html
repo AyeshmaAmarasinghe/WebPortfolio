@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Personal Portfolio</title>
+
+    <!--favicon-->
+    <link rel="shorcut icon" href="./Images/favicon.webp" />
+
+    <!--css link-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--    #MAIN   -->
+    <main>
+      <!--Side Bar-->
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./Images/myAvatar5-removebg-preview.png"
+              alt="Ayeshma Amarasinghe"
+              width="80"
+            />
+          </figure>
+          <div class="info-content">
+            <h1 class="name" title="Ayeshma Amarasinghe">
+              Ayeshma Amarasinghe
+            </h1>
+            <p class="title">Full-Stack Developer</p>
+          </div>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="seperator"></div>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+                <a
+                  href="mailto:ayeshi09amarasinghe@gmail.com"
+                  class="contact-link"
+                  >ayeshi09amarasinghe@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+94 75 720 1531" class="contact-link"
+                  >+94 75 720 1531</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+                <time datetime="2001-11-02">November 02, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+                <address>No. 32/4, Diyagama, Kiriwaththuduwa</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="seperator"></div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- #main-content -->
+      <div class="main-content">
+        <!-- NavBar -->
+        <nav class="navbar">
+          <ul class="navbar">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <button class="navbar-link active" data-nav-link>About</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Resume</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Portfolio</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Blog</button>
+              </li>
+
+              <li class="navbar-item">
+                <button class="navbar-link" data-nav-link>Contact</button>
+              </li>
+            </ul>
+          </ul>
+        </nav>
+
+        <!-- #About -->
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About Me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm a Full-Stack Developer and a Graphic Designer from Colombo,
+              Sri Lanka, working in developing field. I enjoy turning complex
+              problems into simple, beautiful and intuitive designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive.Moreover, I add
+              personal touch to your product and make sure that is eye-catchung
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
+
+          <!-- - service -->
+          <section class="service">
+            <h3 class="h3 service-title">What I'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./Images/New folder/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./Images/New folder/icon-dev.svg"
+                    alt="web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web Development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./Images/New folder/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile Apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for ios and
+                    Android.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./Images/New folder/db-removebg-preview.png"
+                    alt="databases"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Database Management</h4>
+
+                  <p class="service-item-text">
+                    Administering and maintaining databases in a professional
+                    manner inorder to achieve a complete outcome.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- - testimonials -->
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimnials-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.4-removebg-preview.png"
+                      alt="thamasha"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Thamasha Wickrmasekara
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Ayeshma was hired to create a corporate identity. We were
+                      very pleased with the work done. She is very concerned
+                      about the client and has done a an amazing work."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimnials-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.2-removebg-preview.png"
+                      alt="Asela"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Asela
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "Collaborating with Ayeshma on our database management was
+                      a game-changer. Her expertise in database administration
+                      is evident in the seamless organization and retrieval of
+                      our data. Ayeshma's proactive approach to identifying and
+                      resolving potential issues ensured a robust and reliable
+                      database system. We are grateful for her contribution and
+                      would highly recommend Ayeshma to anyone seeking a skilled
+                      and reliable database administrator."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimnials-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.3-removebg-preview.png"
+                      alt="Randima"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Randima Gankanda
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "When it comes to full stack development, Ayeshma is the
+                      go-to person. Her ability to seamlessly integrate
+                      front-end and back-end technologies is remarkable. From
+                      conceptualization to implementation, Ayeshma demonstrated
+                      a keen understanding of our requirements. Her code is not
+                      just functional but elegant. We are extremely satisfied
+                      with the web application she built for us and would
+                      undoubtedly choose Ayeshma for any future projects."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimnials-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.1-removebg-preview.png"
+                      alt="Lahiru"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Lahiru Ramesh
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "We entrusted our database management to Ayeshma, and it
+                      was a decision that paid off immensely. Ayeshma
+                      demonstrated a deep understanding of database
+                      architecture, optimizing our system for efficiency and
+                      scalability. Her meticulous attention to data security and
+                      her proactive monitoring approach instilled confidence in
+                      our team. We highly recommend Ayeshma for her expertise,
+                      professionalism, and dedication to delivering top-notch
+                      database solutions."
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimnials-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.6-removebg-preview.png"
+                      alt="Randima"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Randima Gankanda
+                  </h4>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      "From concept to deployment, Ayeshma's expertise as a full
+                      stack developer shone through. She brought creativity to
+                      the design phase and precision to the coding phase,
+                      resulting in an application that exceeded our
+                      expectations. Ayeshma's ability to adapt to evolving
+                      requirements and provide innovative solutions made the
+                      development process seamless. We are delighted with the
+                      final product and would undoubtedly choose Ayeshma for
+                      future projects."
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- -testimonials modal -->
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay>
+              <section class="testimonials-modal">
+                <button class="modal-close-btn" data-modal-close-btn>
+                  <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+                <div class="modal-img-wrapper">
+                  <figure class="modal-avatar-box">
+                    <img
+                      src="./Images/testimonials.avatar.4-removebg-preview.png"
+                      alt="Thamasha"
+                      width="80"
+                      data-modal-img
+                    />
+                  </figure>
+
+                  <img
+                    src="./Images/New folder/icon-quote.svg"
+                    alt="quote icon"
+                  />
+                </div>
+
+                <div class="modal-content">
+                  <h4 class="h3 modal-title" data-modal-title>Thamasha</h4>
+
+                  <time datetime="2021-06-14"> 14 June, 2021 </time>
+
+                  <div data-modal-text>
+                    <p>
+                      "Ayeshma was hired to create a corporate identity. We were
+                      very pleased with the work done. She is very concerned
+                      about the client and has done a an amazing work."
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+
+          <!-- -clients -->
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./Images/logo1.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./Images/logo2-removebg-preview.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./Images/logo3-removebg-preview.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./Images/logo4.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./Images/logo5.png" alt="client logo" />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img src="./Images/logo6.png" alt="client logo" />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #RESUME -->
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor's Degree in Software Engineering
+                </h4>
+
+                <br />
+
+                <p class="timeline-text">
+                  A foundational degree providing comprehensive knowledge in
+                  programming, algorithms, data structures, and software
+                  development methodologies.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Master's Degree in Web Development
+                </h4>
+
+                <br />
+
+                <p class="timeline-text">
+                  Advanced knowledge and specialization in web technologies,
+                  UI/UX design, and full stack development frameworks.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Full Stack Development Bootcamp Certification
+                </h4>
+
+                <br />
+
+                <p class="timeline-text">
+                  Short-term, intensive programs that focus specifically on full
+                  stack development, offering hands-on experience with various
+                  technologies and real-world projects.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Certification in Data Modeling and Database Design
+                </h4>
+
+                <br />
+
+                <p class="timeline-text">
+                  Specialized certification showcasing expertise in designing
+                  efficient and scalable database structures.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Oracle Certified Professional Database Administration
+                  Certification
+                </h4>
+
+                <br />
+
+                <p class="timeline-text">
+                  Industry-recognized certifications specifically tailored for
+                  database administrators, demonstrating proficiency in specific
+                  database management systems.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Creative Director</h4>
+
+                <br />
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Art Director</h4>
+
+                <br />
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Database Administrator</h4>
+
+                <br />
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Web Designer</h4>
+
+                <br />
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Full-Stack Developer</h4>
+
+                <br />
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Design</h5>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Graphic Design</h5>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MySql</h5>
+                  <data value="50">50%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Web Development</h5>
+                  <data value="96">96%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 96%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #PORTFOLIO -->
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Design</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web Development</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-select-value>
+                  Select Category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web Development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-4.png"
+                      alt="t-map"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">T-Map</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web Design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./Images/New folder/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web Development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #BLOG -->
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-1.jpg"
+                      alt="Design conferences in 2022"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Design conferences in 2022
+                    </h3>
+
+                    <p class="blog-text">
+                      In 2022, the design world eagerly anticipated a plethora
+                      of innovative and inspiring design conferences, each
+                      offering a unique opportunity for professionals to
+                      connect, learn, and explore the latest trends shaping the
+                      industry. From the renowned Adobe MAX conference, where
+                      creatives from around the globe converged to discover
+                      cutting-edge tools and techniques, to the influential AIGA
+                      Design Conference, which fostered dialogue on design's
+                      role in addressing societal challenges, the calendar was
+                      brimming with enriching events. Additionally, niche
+                      conferences such as UX/UI Fest and DesignOps Summit
+                      provided specialized forums for honing skills and
+                      exchanging insights within specific disciplines. Despite
+                      the challenges posed by the ongoing global situation,
+                      these conferences adapted with virtual formats, ensuring
+                      accessibility to a broader audience while still fostering
+                      the collaborative spirit that defines the design
+                      community. As designers embraced new modes of interaction
+                      and knowledge-sharing, the 2022 design conferences served
+                      as catalysts for innovation, collaboration, and
+                      professional growth.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-2.jpg"
+                      alt="Best fonts every designer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jan 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Best fonts every designer
+                    </h3>
+
+                    <p class="blog-text">
+                      Selecting the right fonts is a critical aspect of design,
+                      influencing the visual impact and readability of any
+                      project. Experienced designers understand that the choice
+                      of fonts can significantly enhance the overall aesthetic
+                      and convey the intended message. In the realm of
+                      typography, timeless classics like Helvetica and Garamond
+                      stand out for their clean lines and versatility. For a
+                      touch of modern elegance, designers often turn to fonts
+                      like Proxima Nova or Montserrat, which strike a balance
+                      between contemporary aesthetics and readability. The
+                      adventurous might experiment with more unique options like
+                      Playfair Display or Lato to infuse personality into their
+                      designs. Ultimately, the best fonts for designers are
+                      those that harmonize with the project's tone, effectively
+                      communicate the intended message, and contribute to a
+                      visually engaging user experience
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-3.jpg"
+                      alt="Design digest #80"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">March 25, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                    <p class="blog-text">
+                      In Design Digest #80, we delve into a captivating
+                      exploration of the latest trends, innovative concepts, and
+                      groundbreaking designs that are shaping the world of
+                      creativity. From cutting-edge user interfaces to inspiring
+                      visual aesthetics, this edition is a curated collection of
+                      design brilliance. Discover how designers are pushing
+                      boundaries, embracing new technologies, and redefining
+                      user experiences. Each feature provides insights into the
+                      thought processes behind the designs, offering a glimpse
+                      into the future of digital and visual innovation. Join us
+                      on a journey through the Design Digest #80 to witness the
+                      dynamic evolution of design that is redefining aesthetics
+                      and functionality in captivating ways.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-4.jpg"
+                      alt="UI interactions of the week"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">May 23, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      UI interactions of the week
+                    </h3>
+
+                    <p class="blog-text">
+                      Embark on a visual journey through the most captivating UI
+                      interactions of the week, where design meets
+                      functionality. From seamless micro-animations that enhance
+                      user engagement to intuitive navigation elements that
+                      redefine the user experience, each interaction has been
+                      carefully curated to inspire and delight. Dive into the
+                      artistry of user interface design as we explore innovative
+                      transitions, delightful hover effects, and responsive
+                      components that elevate the aesthetics of digital
+                      interfaces. Join us in celebrating the marriage of form
+                      and function in this week's showcase of UI interactions,
+                      where every click, hover, and scroll tells a story of
+                      thoughtful design and interactive excellence.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-5.jpg"
+                      alt="Forgotten Art of Spacing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">August 28, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Forgotten Art of Spacing</h3>
+
+                    <p class="blog-text">
+                      The Forgotten Art of Spacing is a reflection on the often
+                      overlooked, yet crucial, design principle of whitespace.
+                      In the frenetic pace of modern digital design, the
+                      strategic use of spacing is an art form that can
+                      profoundly impact user experience. This concept extends
+                      beyond the literal gaps between elements; it encompasses
+                      the intentional breathing room that allows content to be
+                      absorbed and appreciated. The Forgotten Art of Spacing
+                      advocates for the mindful incorporation of white space to
+                      enhance readability, guide user focus, and contribute to a
+                      harmonious visual composition. In a world saturated with
+                      information, rediscovering and celebrating the art of
+                      spacing is a timeless pursuit that elevates design from
+                      the ordinary to the extraordinary.
+                    </p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./Images/New folder/blog-6.jpg"
+                      alt="Design digest #79"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Design</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Feb 23, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                    <p class="blog-text">
+                      Design Digest #79 is a captivating showcase of the latest
+                      trends and innovations in the world of design. This
+                      edition explores a myriad of visually stunning and
+                      conceptually groundbreaking projects, offering a glimpse
+                      into the creative minds shaping the design landscape. From
+                      innovative UI/UX solutions that redefine user interactions
+                      to breathtaking architectural designs that push the
+                      boundaries of form and function, this digest presents a
+                      curated collection of inspiration for design enthusiasts.
+                      Dive into the diverse realms of graphic design, web
+                      development, and industrial design, where each feature
+                      unveils the meticulous craftsmanship and forward-thinking
+                      ideas behind every project. Design Digest #79 is not just
+                      a compilation; it's a journey through the forefront of
+                      design excellence, celebrating the intersection of
+                      aesthetics and ingenuity in our visually-driven world.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #CONTACT -->
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d321.1056959194941!2d80.00665432759426!3d6.806126086323812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDgnMjMuNSJOIDgwwrAwMCcyMy4zIkU!5e0!3m2!1sen!2slk!4v1708692630177!5m2!1sen!2slk"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--js link-->
+    <script src="script.js"></script>
+
+    <!--ionicon link-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
